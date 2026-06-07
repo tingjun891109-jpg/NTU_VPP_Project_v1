@@ -89,7 +89,7 @@ st.markdown("### 📌 專案成果一覽")
 def load_kpi():
   m = pd.read_csv('../ml_metrics.csv')
   s = pd.read_csv('../dr_simulation_results.csv')
-    return m, s
+  return m, s
 
 try:
     metrics_df, sim_df = load_kpi()
