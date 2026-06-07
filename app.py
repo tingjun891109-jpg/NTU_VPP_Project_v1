@@ -87,8 +87,8 @@ st.markdown("### 📌 專案成果一覽")
 
 @st.cache_data
 def load_kpi():
-    m = pd.read_csv('./ml_metrics.csv')
-    s = pd.read_csv('./dr_simulation_results.csv')
+  m = pd.read_csv('../ml_metrics.csv')
+  s = pd.read_csv('../dr_simulation_results.csv')
     return m, s
 
 try:
