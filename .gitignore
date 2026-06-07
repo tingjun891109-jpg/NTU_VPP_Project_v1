@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# 如果你的 raw_data 裡面有幾百 MB 的大檔案，建議取消下面這行的註解
+# raw_data/
