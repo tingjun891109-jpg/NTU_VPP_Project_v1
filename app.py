@@ -198,4 +198,3 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 st.markdown("---")
-st.caption("台灣大學 環境資訊與永續管理課程 期末報告 · 2026 · scikit-learn RF + K-Means · CWA CODiS")
