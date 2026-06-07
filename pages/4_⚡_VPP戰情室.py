@@ -108,7 +108,7 @@ st.markdown("""
 # ── 載入模擬資料 ──────────────────────────────────────────
 @st.cache_data
 def load_sim():
-    return pd.read_csv('./dr_simulation_results.csv')
+    return pd.read_csv('../dr_simulation_results.csv')
 
 sim_df = load_sim()
 

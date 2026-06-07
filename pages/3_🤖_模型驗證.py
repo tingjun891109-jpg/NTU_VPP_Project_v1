@@ -30,11 +30,11 @@ FEATURE_LABELS = ['月份','時段(Hour)','假日','當下氣溫','3H熱慣性',
 
 @st.cache_data
 def load_metrics():
-    return pd.read_csv('./ml_metrics.csv')
+    return pd.read_csv('../ml_metrics.csv')
 
 @st.cache_data
 def load_sim():
-    return pd.read_csv('./dr_simulation_results.csv')
+    return pd.read_csv('../dr_simulation_results.csv')
 
 metrics_df = load_metrics()
 sim_df     = load_sim()
